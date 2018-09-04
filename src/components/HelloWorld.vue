@@ -49,7 +49,6 @@ export default class HelloWorld extends Vue {
 
   // lifecycle hook
   mounted () {
-    console.log('test')
     this.greet()
   }
 
@@ -64,10 +63,8 @@ export default class HelloWorld extends Vue {
 
   // method
   greet (): void {
-    console.log('Welcome')
   }
   getterUser (): void {
-    console.log(this.getUser)
   }
   setUserAction (): void {
     // this.actionSetUser({

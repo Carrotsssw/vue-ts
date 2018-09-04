@@ -4,7 +4,6 @@ import { RootState } from '../types'
 
 export const mutations = {
   setUser (state:any, payload: UserState): void {
-    console.log('payload', payload)
     state.user = payload
   }
 }
